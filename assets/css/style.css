@@ -800,6 +800,9 @@ main {
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
+.timeline-item .social-link{
+  color: var(--vegas-gold);
+}
 
 .timeline-item:not(:last-child)::before {
   content: "";
@@ -829,6 +832,15 @@ main {
   line-height: 1.6;
 }
 
+.project-includes{
+  padding-left: 10px;
+}
+.project-includes li{
+  list-style-type: circle;
+}
+.technologies{
+  font-style: italic;
+}
 
 /**
  * skills 
@@ -868,7 +880,10 @@ main {
 }
 
 
-
+.skill-item{
+  list-style: disc;
+  color: var(--light-gray);
+}
 
 
 /*-----------------------------------*\
